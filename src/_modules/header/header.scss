@@ -1,10 +1,23 @@
 // header styles
 .menu{
+    height: 109px;
+    width: 100%;
     nav{
         display: flex;
         justify-content: space-between;
     }
-    li {
-        display: inline;
+    ul{
+        margin: auto 0;
+        li {
+            display: inline;
+            text-transform: uppercase;
+        }
+    }
+    .logo{
+        display: block;
+        width: 123px;
+        height: 121px;
+        background: url(images/wine-merchant-logo.svg);
+        background-size: 123px 121px;
     }
 }

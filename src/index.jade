@@ -3,13 +3,16 @@ extends _layouts/base
 include _modules/header/header
 include _modules/search-bar/search-bar
 include _modules/wine-card/wine-card
+include _modules/footer/footer
 
 block content
 
   +header
-  main
-    p The best independent and specialty wines.
-    p shop now
+  .hero
+    .title 
+      h1 The best independent and specialty wines.
   +search-bar
   h2 This week at the wine merchant
   +wine-card
+
+  +footer
