@@ -3,13 +3,13 @@ mixin header(spec)
   - spec.__class = spec.__class || ''
 
   nav.menu(class=spec.__class)&attributes(attributes)
-    ul
+    ul.left-side
       li Find a Store
       li Wine Club
       li Winemakers
-    .logo
+    a(href="/").logo
       img(src="/images/wine-merchant-logo.svg", alt="")
-    ul
+    ul.right-side
       li Shop
       li Login
       li My Cart

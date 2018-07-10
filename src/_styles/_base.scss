@@ -53,3 +53,14 @@ a{
 .section-title{
     color: $blue;
 }
+
+.hidden-items{
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.red-btn, .white-btn, .black-btn{
+    border: 1px solid black;
+    text-transform: uppercase;
+    padding: 3px;
+}

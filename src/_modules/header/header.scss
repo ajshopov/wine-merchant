@@ -3,13 +3,21 @@
     height: 109px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    .left-side{
+        flex: 1;
+        text-align: left;
+    }
+    .right-side{
+        flex: 1;
+        text-align: right;
+    }
     ul{
         margin: auto 0;
         li {
             display: inline;
             text-transform: uppercase;
             color: $menu;
+            padding-right: 10px;
         }
     }
     .logo{

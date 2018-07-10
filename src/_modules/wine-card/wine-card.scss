@@ -8,6 +8,14 @@
         width: 25%;
         font-family: $monty;
         padding: 16px;
+        border: 1px solid #ffffff;
+        &:hover{
+            border: 1px solid black;
+            transition: 0.3s;
+            > .hidden-items{
+                visibility: visible;
+            }
+        }
     }
     img{
         margin: 0 auto;
@@ -19,5 +27,9 @@
     }
     span{
         font-weight: 500;
+    }
+    .align-btns{
+        display: flex;
+        justify-content: space-between;
     }
 }

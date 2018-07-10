@@ -1,0 +1,30 @@
+.search-filters{
+    display: flex;
+    ul{
+        width: 33.33%;
+    }
+}
+.wine-preview{
+    display: flex;
+    .col-3{
+        width: 33%;
+    }
+    .product{
+        display: block;
+        margin: 0 auto;
+    }
+    p.wine-name{
+        font-weight: 400;
+        font-size: 18px;
+    }
+    span{
+        font-weight: 500;
+    }
+    #cart{
+        display: block;
+    }
+}
+
+select{
+    width: 100%;
+}

@@ -12,6 +12,58 @@ block content
   +header
   .container
     +search-bar
+    .search-filters
+      ul
+        li Wine category
+        select
+          option(value="") red
+          option(value="") white
+      ul
+        li Brand
+        select
+          option(value="") Penfolds
+          option(value="") Tait
+          option(value="") Jacob's Creek
+      ul
+        li Price
+        select
+          option(value="") low-high
+          option(value="") high-low
+    a.view-link(href="#") view all wines
+    .wine-preview
+      .col-3
+        img.product(src="images/wine-03.png", alt="")
+      .col-3
+        p.wine-name
+          span Penfolds
+          |  Pinot Noir 2017
+        p 12 reviews
+        p Max Schubert, one of Penfolds winemaking legends...
+        p $24.95 bottle
+        select
+          option(value="") select amount
+          option(value="") 1
+          option(value="") 2
+          option(value="") 3
+        p $149.95 case
+        select
+          option(value="") select amount
+          option(value="") 1
+          option(value="") 2
+          option(value="") 3
+        a.red-btn(href="#" id="cart") add to cart
+      .col-3
+        p.large wine bars who stock this wine
+        p Gertrude Street Enoteca
+        p The Tipsy Cow
+        p Victoria St Wine Bar
+        p City Wine Shop
+        p Punch Lane Wine Bar
+        p.large Wine merchant expert
+        img(src="images/profile-01.png", alt="")
+        p Shawn Kemp
+        p A rush of generous pulped fruits and earthly dried strawberry.
+        a.view-link(href="#") read all of shawn's reviews
     h3 You may also like these wines
     +wine-card
     +cookbook

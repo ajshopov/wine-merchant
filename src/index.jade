@@ -13,20 +13,19 @@ block content
   .hero
     .title 
       h1 The best independent and specialty wines.
-      button shop now
+      a.white-btn(href="#") shop now
   .container
     +search-bar
     h3.section-title This week at the wine merchant
     +wine-card
   .expert
-  .expert-card
-    h2 Need advice from our experts?
-    p Let our expert wine connoisseurs guide you to making the best purchase decision. The experts are here to help you choose your wine.
-    button get expert advice
   .container
+    .expert-card
+      h2 Need advice from our experts?
+      p Let our expert wine connoisseurs guide you to making the best purchase decision. The experts are here to help you choose your wine.
+      a.red-btn(href="#") get expert advice
     +cookbook
-
   +fans
-
-
+  .container.intercom
+    img(src="images/intercom.png", alt="")
   +footer
