@@ -1,1 +1,16 @@
 // wine-card styles
+.wine-card{
+    .container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        .wine-grid{
+            width: 25%;
+        }
+        img{
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}

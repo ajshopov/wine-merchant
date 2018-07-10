@@ -1,38 +1,58 @@
 [
     {
-        "image": "",
+        "image": "images/wine-01.png",
         "name": "The Tamar",
-        "bottle": "",
-        "case": ""
+        "type": "Pinot Noir 2015",
+        "bottle": "$24.95",
+        "case": "$149.95"
     },
     {
-        "image": "",
+        "image": "images/wine-02.png",
         "name": "Tait",
-        "bottle": "",
-        "case": ""
+        "type": "Chardonnay 2012",
+        "bottle": "$24.95",
+        "case": "$149.95"
     },
     {
-        "image": "",
+        "image": "images/wine-03.png",
         "name": "Penfolds",
-        "bottle": "",
-        "case": ""
+        "type": "Pinot Noir 2017",
+        "bottle": "$24.95",
+        "case": "$149.95"
     },
     {
-        "image": "",
+        "image": "images/wine-04.png",
         "name": "Wolf",
-        "bottle": "",
-        "case": ""
+        "type": "Pinot Noir 2018",
+        "bottle": "$24.95",
+        "case": "$149.95"
     },
     {
-        "image": "",
-        "name": "Wolf SB",
-        "bottle": "",
-        "case": ""
+        "image": "images/wine-05.png",
+        "name": "Wolf",
+        "type": "Sauvignon Blanc 2011",
+        "bottle": "$24.95",
+        "case": "$149.95"
     },
     {
-        "image": "",
-        "name": "Penfolds Pinot",
-        "bottle": "",
-        "case": ""
+        "image": "images/wine-06.png",
+        "name": "Penfolds",
+        "type": "Pinot Noir 2018",
+        "bottle": "$24.95",
+        "case": "$149.95"
+    },
+    {
+        "image": "images/wine-07.png",
+        "name": "South Island",
+        "type": "Blanc 2012",
+        "bottle": "$24.95",
+        "case": "$149.95"
+    },
+    {
+        "image": "images/wine-08.png",
+        "name": "Jacob's Creek",
+        "type": "Reisling 2010",
+        "bottle": "$24.95",
+        "case": "$149.95"
     }
 ]

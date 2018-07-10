@@ -6,4 +6,6 @@ mixin wine-card(spec)
     .container
       each wine in site.data.wines
         .wine-grid
-          p #{wine.name}
+          img(src="#{wine.image}", alt="")
+          p #{wine.name} #{wine.type}
+          p #{wine.bottle} bottle  #{wine.case} case
