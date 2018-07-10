@@ -1,5 +1,5 @@
 body{
-	font-family: Lato, sans-serif;
+	font-family: $lato;
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -43,9 +43,13 @@ a{
 .large{
     font-size: 1.125em;
     font-weight: 500;
-    font-family: Montserrat;
+    font-family: $monty;
 }
 
 .small{
     font-size: 0.875em;
+}
+
+.section-title{
+    color: $blue;
 }
