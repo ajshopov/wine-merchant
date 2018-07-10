@@ -2,10 +2,9 @@ mixin wine-card(spec)
   - spec = spec || {}
   - spec.__class = spec.__class || ''
 
-  .wine-card(class=spec.__class)&attributes(attributes)
-    .container
-      each wine in site.data.wines
-        .wine-grid
-          img(src="#{wine.image}", alt="")
-          p #{wine.name} #{wine.type}
-          p #{wine.bottle} bottle  #{wine.case} case
+  ul.wine-grid(class=spec.__class)&attributes(attributes)
+    each wine in site.data.wines
+      li.wine-card
+        img(src="#{wine.image}", alt="")
+        p #{wine.name} #{wine.type}
+        p #{wine.bottle} bottle  #{wine.case} case

@@ -2,16 +2,15 @@ mixin header(spec)
   - spec = spec || {}
   - spec.__class = spec.__class || ''
 
-  .menu(class=spec.__class)&attributes(attributes)
-    nav
-      ul
-        li find a store
-        li wine club
-        li winemakers
-      .logo
-        img(src="/images/wine-merchant-logo.svg", alt="")
-      ul
-        li shop
-        li login
-        li my cart
+  nav.menu(class=spec.__class)&attributes(attributes)
+    ul
+      li Find a Store
+      li Wine Club
+      li Winemakers
+    .logo
+      img(src="/images/wine-merchant-logo.svg", alt="")
+    ul
+      li Shop
+      li Login
+      li My Cart
 

@@ -1,0 +1,20 @@
+[
+    {
+        "image": "images/pasta.png",
+        "title": "pasta",
+        "subtitle": "Pasta florentine",
+        "description": "Creamy mushrooms and peppery parmesan make this classic pasta florentine a dinner."
+    },
+    {
+        "image": "images/pizza.png",
+        "title": "pizza",
+        "subtitle": "Vegetarian pizza",
+        "description": "Pizza mushrooms and peppery parmesan make this classic pasta."
+    },
+    {
+        "image": "images/salmon.png",
+        "title": "salmon",
+        "subtitle": "Smoked salmon",
+        "description": "BBQ salmon mushrooms peppery parmesan make this classic for dinner tonight."
+    }
+]

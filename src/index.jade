@@ -3,6 +3,7 @@ extends _layouts/base
 include _modules/header/header
 include _modules/search-bar/search-bar
 include _modules/wine-card/wine-card
+include _modules/cookbook/cookbook
 include _modules/footer/footer
 
 block content
@@ -13,8 +14,15 @@ block content
       h1 The best independent and specialty wines.
   .container
     +search-bar
-    h2 This week at the wine merchant
+    h3 This week at the wine merchant
     +wine-card
   .expert
-    .expert-card
+  .expert-card
+    h2 Need advice from our experts?
+    p Let our expert wine connoisseurs guide you to making the best purchase decision. The experts are here to help you choose your wine.
+    button get expert advice
+  .container
+    +cookbook
+
+
   +footer

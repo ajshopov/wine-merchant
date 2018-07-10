@@ -1,0 +1,18 @@
+mixin cookbook(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  .cookbook(class=spec.__class)&attributes(attributes)
+    h2 Food & Wine from Jo's cookbook
+    p view all recipes
+
+    ul.cook-grid
+      each food in site.data.cookbook
+        article
+          img(src="#{food.image}", alt="")
+          h2 #{food.title}
+          p.large #{food.subtitle}
+          p #{food.description}
+          p view #{food.subtitle}
+
+
