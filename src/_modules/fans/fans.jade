@@ -2,5 +2,31 @@ mixin fans(spec)
   - spec = spec || {}
   - spec.__class = spec.__class || ''
 
-  div(class=spec.__class)&attributes(attributes)
-    p This is an example paragraph for the fans module
+  .fans(class=spec.__class)&attributes(attributes)
+    h2 Our wine merchant fans
+    p Follow and connect with them on Instagram to share all of your wine tips.
+    ul.insta-reel
+      li.insta-card
+        img.fan(src="images/fan-01.png", alt="")
+        img.profile(src="images/profile-01.png", alt="")
+        p @janekemp
+      li.insta-card
+        img.fan(src="images/fan-02.png", alt="")
+        img.profile(src="images/profile-02.png", alt="")
+        p @becmiller
+      li.insta-card
+        img.fan(src="images/fan-03.png", alt="")
+        img.profile(src="images/profile-03.png", alt="")
+        p @garypayton
+      li.insta-card
+        img.fan(src="images/fan-04.png", alt="")
+        img.profile(src="images/profile-03.png", alt="")
+        p @tessgrey
+      li.insta-card
+        img.fan(src="images/fan-05.png", alt="")
+        img.profile(src="images/profile-05.png", alt="")
+        p @shawnkemp
+      li.insta-card
+        img.fan(src="images/fan-06.png", alt="")
+        img.profile(src="images/profile-06.png", alt="")
+        p @emilyloz

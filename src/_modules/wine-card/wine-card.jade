@@ -10,3 +10,8 @@ mixin wine-card(spec)
           span #{wine.name}
           |  #{wine.type}
         p.small #{wine.bottle} bottle  #{wine.case} case
+        .hidden-items
+          p 12 reviews
+          a.white-btn(href="#") view wine
+          a.red-btn(href="#") add to cart
+        
