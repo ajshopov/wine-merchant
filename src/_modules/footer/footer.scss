@@ -1,1 +1,22 @@
 // footer styles
+footer{
+    background-color: rgba(215, 219, 230, 0.2);
+    .container{
+        display: flex;
+        padding: 80px 0;
+    }
+    .col-4{
+        width: 25%;
+        display: block;
+    }
+    .logo{
+        display: block;
+        width: 170px;
+        height: 168px;
+    }
+    .icons{
+        img{
+            padding-right: 24px;
+        }
+    }
+}

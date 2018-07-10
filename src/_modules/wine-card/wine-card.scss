@@ -3,12 +3,21 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-
+    margin-bottom: 120px;
     .wine-card{
         width: 25%;
+        font-family: Montserrat;
+        padding: 16px;
     }
     img{
         margin: 0 auto;
         display: block;
+    }
+    p.wine-name{
+        font-weight: 400;
+        font-size: 18px;
+    }
+    span{
+        font-weight: 500;
     }
 }

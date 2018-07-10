@@ -1,0 +1,20 @@
+extends _layouts/base
+
+include _modules/header/header
+include _modules/search-bar/search-bar
+include _modules/wine-card/wine-card
+include _modules/cookbook/cookbook
+include _modules/fans/fans
+include _modules/footer/footer
+
+block content
+
+  +header
+  .container
+    +search-bar
+    h3 You may also like these wines
+    +wine-card
+    +cookbook
+  +fans
+
+  +footer

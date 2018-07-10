@@ -6,5 +6,7 @@ mixin wine-card(spec)
     each wine in site.data.wines
       li.wine-card
         img(src="#{wine.image}", alt="")
-        p #{wine.name} #{wine.type}
-        p #{wine.bottle} bottle  #{wine.case} case
+        p.wine-name
+          span #{wine.name}
+          |  #{wine.type}
+        p.small #{wine.bottle} bottle  #{wine.case} case

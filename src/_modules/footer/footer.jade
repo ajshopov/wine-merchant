@@ -2,5 +2,46 @@ mixin footer(spec)
   - spec = spec || {}
   - spec.__class = spec.__class || ''
 
-  div(class=spec.__class)&attributes(attributes)
-    p This is an example paragraph for the footer module
+  footer(class=spec.__class)&attributes(attributes)
+    .container
+      .col-4
+        .logo
+          img(src="/images/wine-merchant-logo.svg", alt="")
+      .col-4
+        h5 Help & Services
+        ul
+          li
+            a(href="#") Help center
+          li
+            a(href="#") Contact us
+          li
+            a(href="#") My Wine Merchant
+          li
+            a(href="#") Delivery options
+          li
+            a(href="#") Corporate orders
+      .col-4
+        h5 Shop Wine
+        ul
+          li
+            a(href="#") Red wine
+          li
+            a(href="#") White wine
+          li
+            a(href="#") Champagne
+          li
+            a(href="#") Australian wine
+          li
+            a(href="#") Weekly specials
+      .col-4
+        h5 Contact
+        p 380 Lonsdale street Melbourne, Victoria
+        p 1300 025 959 
+        p hello@winemerchant.com
+        .icons
+          img(src="/images/facebook.png", alt="")
+          img(src="/images/twitter.png", alt="")
+          img(src="/images/linkedin.png", alt="")
+          img(src="/images/instagram.png", alt="")
+          img(src="/images/youtube.png", alt="")
+

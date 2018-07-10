@@ -6,13 +6,13 @@ mixin cookbook(spec)
     h2 Food & Wine from Jo's cookbook
     p view all recipes
 
-    ul.cook-grid
+    ul.list-of-recipes
       each food in site.data.cookbook
         article
-          img(src="#{food.image}", alt="")
-          h2 #{food.title}
+          .img-holder(style="background: url('#{food.image}') no-repeat center;")
+            h2 #{food.title}
           p.large #{food.subtitle}
-          p #{food.description}
-          p view #{food.subtitle}
+          p.descr #{food.description}
+          a(href="#") view #{food.subtitle}
 
 

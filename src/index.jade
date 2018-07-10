@@ -4,6 +4,7 @@ include _modules/header/header
 include _modules/search-bar/search-bar
 include _modules/wine-card/wine-card
 include _modules/cookbook/cookbook
+include _modules/fans/fans
 include _modules/footer/footer
 
 block content
@@ -12,6 +13,7 @@ block content
   .hero
     .title 
       h1 The best independent and specialty wines.
+      button shop now
   .container
     +search-bar
     h3 This week at the wine merchant
@@ -23,6 +25,8 @@ block content
     button get expert advice
   .container
     +cookbook
+
+  +fans
 
 
   +footer
