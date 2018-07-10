@@ -15,6 +15,7 @@
 .container{
     width: 1170px;
     margin: 0 auto;
+    position: relative;
 }
 
 .expert{
@@ -22,4 +23,9 @@
     height: 448px;
     background: url(/images/experts.png);
     background-size: 100% 100%;
+}
+
+.intercom{
+    margin-bottom:-50px;   
+    text-align: right;
 }
