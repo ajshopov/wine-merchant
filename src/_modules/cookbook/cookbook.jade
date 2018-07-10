@@ -3,8 +3,9 @@ mixin cookbook(spec)
   - spec.__class = spec.__class || ''
 
   .cookbook(class=spec.__class)&attributes(attributes)
-    h2 Food & Wine from Jo's cookbook
-    p view all recipes
+    .heading
+      h2 Food & Wine from Jo's cookbook
+      a.view-link(href="#") view all recipes
 
     ul.list-of-recipes
       each food in site.data.cookbook
@@ -13,6 +14,6 @@ mixin cookbook(spec)
             h2 #{food.title}
           p.large #{food.subtitle}
           p.descr #{food.description}
-          a(href="#") view #{food.subtitle}
+          a.view-link(href="#") view #{food.subtitle}
 
 
