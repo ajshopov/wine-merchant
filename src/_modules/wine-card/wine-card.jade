@@ -11,7 +11,13 @@ mixin wine-card(spec)
           |  #{wine.type}
         p.small #{wine.bottle} bottle  #{wine.case} case
         .hidden-items
-          p 12 reviews
+          .star-holder
+            img.star(src="images/star-on.svg", alt="")
+            img.star(src="images/star-on.svg", alt="")
+            img.star(src="images/star-on.svg", alt="")
+            img.star(src="images/star-off.svg", alt="")
+            img.star(src="images/star-off.svg", alt="")
+            span 12 reviews
           .align-btns
             a.black-btn(href="/product.html") view wine
             a.red-btn(href="/product.html") add to cart

@@ -10,6 +10,15 @@
         font-family: $monty;
         color: #FFFFFF;
     }
+    .title{
+        width: 540px;
+        margin: auto;
+        text-align: center;
+        a{
+            padding: 17px 40px;
+            line-height: 24px;
+        }
+    }
 }
 
 .container{
@@ -28,10 +37,21 @@
 .expert-card{
     background-color: white;
     width: 60%;
-    padding: 20px;
+    padding: 20px 40px;
     position: absolute;
-    top: -50%;
-    box-shadow: #FFFFFF;
+    top: -60%;
+    box-shadow: 0 0 40px 1px rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.1);
+    h2{
+        margin: 20px 0px 23px;
+        color: $menu;
+    }
+    .red-btn{
+        padding: 17px 28px;
+        margin: 37px 0 17px;
+        display: block;
+        width: fit-content;
+    }
 }
 
 .intercom{

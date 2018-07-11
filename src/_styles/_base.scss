@@ -12,6 +12,9 @@ h1{
 
 h2{
     font-size: 2em;
+    font-family: $monty;
+    font-weight: 300;
+    line-height: 32px;
 }
 
 h3{
@@ -20,6 +23,9 @@ h3{
 
 h4{
     font-size: 1.5em;
+    font-family: $monty;
+    font-weight: 300;
+    line-height: 32px;
 }
 
 h5{
@@ -40,6 +46,9 @@ a{
     text-decoration: none;
 }
 
+p{
+    line-height: 24px;
+}
 .large{
     font-size: 1.125em;
     font-weight: 500;
@@ -63,4 +72,34 @@ a{
     border: 1px solid black;
     text-transform: uppercase;
     padding: 3px;
+}
+.red-btn{
+    background-color: $red;
+    border: 1px solid $red;
+    color: white;
+}
+.white-btn{
+    color: white;
+    border: 1px solid white;
+    
+}
+.black-btn{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow{
+    height: 20px;
+    width: 29px;
+}
+
+.view-link{
+    text-transform: uppercase;
+    color: $menu;
 }

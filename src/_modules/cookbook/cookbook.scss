@@ -1,10 +1,6 @@
 // cookbook styles
 .cookbook{
     margin-top: 100px;
-    .heading{
-        display: flex;
-        justify-content: space-between;
-    }
     .list-of-recipes{
         width: 100%;
         display: flex;
@@ -34,7 +30,4 @@
         font-family: $monty;
         opacity: 0.8;
     }
-}
-.view-link{
-    text-transform: uppercase;
 }

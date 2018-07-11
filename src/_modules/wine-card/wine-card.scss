@@ -8,16 +8,17 @@
         width: 25%;
         font-family: $monty;
         padding: 16px;
-        border: 1px solid #ffffff;
+        border: 1px solid white;
         &:hover{
-            border: 1px solid black;
+            box-shadow: 0 0 40px 1px rgba(0,0,0,0.1);
+            border: 1px solid rgba(0,0,0,0.1);
             transition: 0.3s;
             > .hidden-items{
                 visibility: visible;
             }
         }
     }
-    img{
+    li > img{
         margin: 0 auto;
         display: block;
     }
@@ -32,4 +33,10 @@
         display: flex;
         justify-content: space-between;
     }
+}
+.star{
+    height: 16px;
+}
+.star-holder{
+    display: inline;
 }
