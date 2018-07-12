@@ -6,7 +6,7 @@ export default class Fans {
     console.log('%s module', this.name.toLowerCase());
     $('.insta-reel').slick({
       centerMode: true,
-      adaptiveHeight: false,
+      adaptiveHeight: true,
       infinite: true,
       dots: false,
       arrows: true,

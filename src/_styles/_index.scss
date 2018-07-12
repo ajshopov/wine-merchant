@@ -65,3 +65,10 @@
     margin-bottom:-50px;   
     text-align: right;
 }
+
+@media (max-width: 500px){
+    .expert-card{
+        width: 100%;
+        position: relative;
+    }
+}

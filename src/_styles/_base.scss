@@ -96,6 +96,11 @@ p{
     justify-content: space-between;
     align-items: center;
 }
+@media (max-width: 750px){
+    .heading{
+        flex-direction: column;
+    }
+}
 
 .arrow{
     height: 20px;
