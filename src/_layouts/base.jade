@@ -14,8 +14,9 @@ head
   meta(name='description', content= 'A new Yeogurt application')
   meta(name='viewport', content='width=device-width, initial-scale=1.0')
   block stylesheets
+    link(rel="stylesheet", type="text/css", href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css")
+    link(rel="stylesheet", type="text/css", href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css")
     link(rel='stylesheet', href= baseUrl + 'styles/main.css')
-
 body
   <!--[if lt IE 11]>
   <p class='browsehappy'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience.</p>
@@ -24,6 +25,8 @@ body
   block content
 
   block scripts
+    script(src='https://code.jquery.com/jquery-3.3.1.min.js', crossorigin='anonymous')
     script(src= baseUrl + 'scripts/main.js')
+    script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js")
 
 </html>

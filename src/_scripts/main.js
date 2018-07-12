@@ -4,9 +4,9 @@
 'use strict';
 
 import $ from 'jquery';
-import Link from '../_modules/link/link';
+import Fans from '../_modules/fans/fans';
 
 $(() => {
-  new Link(); // Activate Link modules logic
+  new Fans(); // Activate Link modules logic
   console.log('Welcome to Yeogurt!');
 });
