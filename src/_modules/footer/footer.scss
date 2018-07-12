@@ -4,15 +4,24 @@ footer{
     .container{
         display: flex;
         padding: 80px 0;
+        flex-wrap: wrap;
     }
     .col-4{
         width: 25%;
         display: block;
+        flex: 1 0 calc(25% - 16px);
+        // IE9
+        width: calc(25% - 16px);
+        float: left;
+        //
+        min-width: 220px;
+        padding: 10px;
     }
     .logo{
         display: block;
         width: 170px;
         height: 168px;
+        margin: auto;
     }
     .icons{
         img{
