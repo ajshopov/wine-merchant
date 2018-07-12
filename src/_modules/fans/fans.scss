@@ -1,9 +1,10 @@
 // fans styles
 .fans{
     text-align: center;
+    margin: 80px 0 45px;
     .insta-reel{
         display: flex;
-        width: 1170px;
+        max-width: 1700px;
         margin: 0 auto;
     }
     .insta-card{
@@ -21,7 +22,7 @@
         border-radius: 50%;
         position: absolute;
         left: 50%;
-        top: 61%;
+        top: 68%;
         transform: translateX(-50%);
     }
 }

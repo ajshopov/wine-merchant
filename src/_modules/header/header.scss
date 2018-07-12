@@ -6,10 +6,12 @@
     .left-side{
         flex: 1;
         text-align: left;
+        margin-left: 30px;
     }
     .right-side{
         flex: 1;
         text-align: right;
+        margin-right: 30px;
     }
     ul{
         margin: auto 0;
@@ -19,10 +21,26 @@
             color: $menu;
             padding-right: 10px;
         }
+        .cart{
+            position: relative;
+        }
+        .cart-num{
+            position: absolute;
+            top: 30px;
+            right: 20px;
+        }
+        a:visited{
+            color:inherit;
+        }
     }
     .logo{
         display: block;
         width: 123px;
         height: 121px;
+        position: relative;
+        img{
+            position: absolute;
+            top: 20px;
+        }
     }
 }

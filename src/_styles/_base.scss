@@ -15,6 +15,7 @@ h2{
     font-family: $monty;
     font-weight: 300;
     line-height: 32px;
+    color: $menu;
 }
 
 h3{
@@ -64,8 +65,9 @@ p{
 }
 
 .hidden-items{
-    visibility: hidden;
-    transition: 0.3s;
+    opacity: 0;
+    transition: opacity 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+    transition-delay: 0.1s;
 }
 
 .red-btn, .white-btn, .black-btn{
@@ -92,11 +94,14 @@ p{
 .heading{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .arrow{
     height: 20px;
     width: 29px;
+    vertical-align: top;
+    margin-left: 9px;
 }
 
 .view-link{

@@ -3,6 +3,7 @@
     width: 100%;
     height: 150px;
     transform: translateY(-75px);
+    margin-bottom: -75px;
     padding: 30px 30px 40px 30px;
     background-color: #ffffff;
     position: relative;
@@ -12,14 +13,14 @@
         box-shadow: 0 0 40px 1px rgba(0,0,0,0.1);
         border: 1px solid rgba(0,0,0,0.1);
         background-color: #FFFFFF;
-        padding-left: 80px;
-        background:url(/images/wine-merchant-logo.svg) 2% 50% no-repeat transparent;
-		background-size: 33px 33px;
+        padding: 0 135px 0 80px;
+        background: url(/images/magnify.svg) 28px 23px no-repeat transparent;
+        background-size: 33px 33px;
     }
     a{
         position: absolute;
-        right: 4%;
-        top: 29%;
+        right: 40px;
+        top: 43px;
         padding: 17px 30px;
     }
 }
