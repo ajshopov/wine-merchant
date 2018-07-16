@@ -66,7 +66,15 @@
     text-align: right;
 }
 
-@media (max-width: 500px){
+@media (max-width: 767px){
+    .hero{
+        .title{
+            width: 100%;
+        }
+        h1{
+            font-size: 2em;
+        }
+    }
     .expert-card{
         width: 100%;
         position: relative;

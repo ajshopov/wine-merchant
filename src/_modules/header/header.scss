@@ -21,9 +21,6 @@
             color: $menu;
             padding-right: 10px;
         }
-        .cart{
-            position: relative;
-        }
         .cart-num{
             position: absolute;
             top: 30px;
@@ -41,6 +38,37 @@
         img{
             position: absolute;
             top: 20px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        height: 150px;
+        ul{
+            // flex-direction: column;
+            li{
+                display: block;
+                margin-bottom: 10px;
+            }
+            .cart-num{
+                top: 95px;
+                right: 30px;
+            }
+            .cart{
+                padding-right: 10px;
+            }
+        }
+    }
+    @media (max-width: 500px) {
+        .left-side{
+            margin-left: 5px;
+        }
+        .right-side{
+            margin-right: 5px;
+        }
+        ul{
+            .cart-num{
+                right: 5px;
+            }
         }
     }
 }

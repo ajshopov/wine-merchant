@@ -37,3 +37,15 @@
         margin-top: 30px;
     }
 }
+
+@media (max-width: 768px){
+    .heading{
+        margin-bottom: 20px;
+    }
+    .list-of-recipes{
+        flex-wrap: wrap;
+        article{
+            width: 100%;
+        }
+    }
+}
