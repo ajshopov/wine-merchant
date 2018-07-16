@@ -8,26 +8,39 @@ export default class Fans {
       infinite: true,
       dots: false,
       arrows: true,
-      slidesToShow: 4,
+      slidesToShow: 5,
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1170,
+          settings: {
+            slidesToShow: 4,
+            infinite: true,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 900,
           settings: {
             slidesToShow: 3,
+            infinite: true,
+            slidesToScroll: 1
           }
         },
         {
-          breakpoint: 700,
+          breakpoint: 600,
           settings: {
-            slidesToShow: 2
+            slidesToShow: 2,
+            infinite: true,
+            slidesToScroll: 1
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 380,
           settings: {
-            arrows: false,
-            slidesToShow: 1
+            slidesToShow: 1,
+            infinite: true,
+            slidesToScroll: 1
           }
         }
         // You can unslick at a given breakpoint now by adding:

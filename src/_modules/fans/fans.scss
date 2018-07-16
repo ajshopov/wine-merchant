@@ -9,20 +9,21 @@
     }
     .insta-card{
         // padding: 15px;
-        // width: 16.66%;
+        // width: 100%;
         position: relative;
         p{
             margin-top: 50px;
         }
     }
     .fan{
-        // width: 100%;
+        width: 100%;
         position: relative;
+        padding: 5px;
     }
     .profile{
         position: absolute;
         left: 50%;
-        top: 67%;
-        transform: translateX(-50%);
+        top: 66%;
+        transform: translate(-50%, -05%);
     }
 }
