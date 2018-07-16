@@ -12,16 +12,17 @@
         // width: 16.66%;
         position: relative;
         p{
-            margin-top: 30px;
+            margin-top: 50px;
         }
     }
     .fan{
         // width: 100%;
+        position: relative;
     }
     .profile{
         position: absolute;
         left: 50%;
-        // top: 68%;
-        // transform: translateX(-50%);
+        top: 67%;
+        transform: translateX(-50%);
     }
 }

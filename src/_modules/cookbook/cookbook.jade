@@ -11,7 +11,7 @@ mixin cookbook(spec)
     ul.list-of-recipes
       each food in site.data.cookbook
         article
-          .img-holder(style="background: url('#{food.image}') no-repeat center;")
+          .img-holder(style="background-image: url('#{food.image}');")
             h2 #{food.title}
           p.large #{food.subtitle}
           p.descr #{food.description}
