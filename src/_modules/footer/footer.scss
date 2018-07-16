@@ -25,6 +25,9 @@ footer{
     }
     .icons{
         margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+
         img{
             padding-right: 24px;
         }
@@ -48,6 +51,12 @@ footer{
         }
         h5{
             margin-bottom: 15px;
+        }
+        .icons{
+            justify-content: center;
+            img{
+                padding: 0 15px 10px;
+            }
         }
     }
     @media(max-width: 767px){
