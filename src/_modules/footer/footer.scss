@@ -27,12 +27,14 @@ footer{
         margin-top: 25px;
         display: flex;
         flex-wrap: wrap;
-
-        img{
-            padding-right: 24px;
+        margin-left: -15px;
+        a{
+            height: 30px;
+            width: 30px;
+            margin-right: 24px;
         }
-        img:last-child{
-            padding-right: 0px;
+        a:last-child{
+            margin-right: 0px;
         }
     }
     a{
