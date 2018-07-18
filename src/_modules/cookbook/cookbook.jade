@@ -13,7 +13,7 @@ mixin cookbook(spec)
         article
           .img-holder(style="background-image: url('#{food.image}');")
             h2 #{food.title}
-          p.large #{food.subtitle}
+          h6 #{food.subtitle}
           p.descr #{food.description}
           a.view-link(href="#") view #{food.subtitle}
           img.arrow(src="images/arrow.svg", alt="")
