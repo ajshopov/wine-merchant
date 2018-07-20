@@ -48,7 +48,8 @@ gulp.task('build', [
   'imagemin',
   'jade',
   'sass',
-  'browserify'
+  'browserify',
+  'deploy'
 ]);
 
 // Server tasks with watch
