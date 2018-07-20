@@ -3,6 +3,5 @@ mixin search-bar(spec)
   - spec.__class = spec.__class || ''
 
   form.search-bar(class=spec.__class)&attributes(attributes)
-    label(for="searchbar")
-    input#searchbar(type="text" title="Search" placeholder="Search “Best wine to go with pasta”") 
+    input#searchbar(type="text" aria-label="search field" title="Search" placeholder="Search “Best wine to go with pasta”") 
     a.red-btn(href="#") search

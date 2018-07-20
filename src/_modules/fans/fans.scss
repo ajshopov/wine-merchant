@@ -11,8 +11,8 @@
         // padding: 15px;
         // width: 100%;
         position: relative;
-        p{
-            margin-top: 50px;
+        h6{
+            margin-top: 25px;
         }
     }
     .fan{
@@ -23,7 +23,7 @@
     .profile{
         position: absolute;
         left: 50%;
-        top: 66%;
+        bottom: 11%;
         transform: translate(-50%, -05%);
     }
 }
