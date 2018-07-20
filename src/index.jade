@@ -10,24 +10,26 @@ include _modules/footer/footer
 block content
 
   +header
-  .hero
-    h1 The best independent and specialty wines.
-    a.white-btn(href="/product.html") shop now
-  .container
-    +search-bar
-    .heading
-      h4.section-title This week at the Wine Merchant
-      a.view-link(href="/product.html") view all wines
-        img.arrow(src="images/arrow.svg", alt="")
-    +wine-card
-  .expert
-  .container
-    .expert-card
-      h2 Need advice from our experts?
-      p Let our expert wine connoisseurs guide you to making the best purchase decision. The experts are here to help you choose your wine.
-      a.red-btn(href="/product.html") get expert advice
-    +cookbook
-  +fans
-  .container.intercom
-    img(src="images/intercom.png", alt="")
+  main
+    .hero
+      h1 The best independent and specialty wines.
+      a.white-btn(href="/product.html") shop now
+    .container
+      +search-bar
+      .heading
+        h4.section-title This week at the Wine Merchant
+        a.view-link(href="/product.html") view all wines
+          img.arrow(src="images/arrow.svg", alt="")
+      +wine-card
+    .expert
+    .container
+      .expert-card
+        h2 Need advice from our experts?
+        p Let our expert wine connoisseurs guide you to making the best purchase decision. The experts are here to help you choose your wine.
+        a.red-btn(href="/product.html") get expert advice
+      +cookbook
+    +fans
+    .container.intercom
+      a(href="/product.html" title="chat assistance")
+        img(src="images/intercom.png", alt="")
   +footer
