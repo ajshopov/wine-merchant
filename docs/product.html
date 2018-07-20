@@ -1,0 +1,250 @@
+<!DOCTYPE html><html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>wine-merchant</title>
+  <meta name="description" content="A new Yeogurt application">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <!--[if lt IE 11]>
+  <p class='browsehappy'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <nav class="menu">
+    <ul class="left-side">
+      <li> <a href="/product.html" title="Find a Store">Find a Store</a></li>
+      <li> <a href="/product.html" title="Wine Club">Wine Club</a></li>
+      <li> <a href="/product.html" title="Winemakers">Winemakers</a></li>
+    </ul><a href="/" title="wine merchant logo" class="logo"><img src="/images/wine-merchant-logo.svg" alt="Logo"></a>
+    <ul class="right-side">
+      <li> <a href="/product.html" title="Shop">Shop</a></li>
+      <li> <a href="/product.html" title="Login">Login</a></li>
+      <li> <a href="/product.html" title="My Cart">My Cart</a></li>
+      <li><a href="/product.html" title="Shopping cart"><img src="images/cart.png" alt="Shopping cart" class="cart">
+          <div class="cart-num"><img src="images/12.png" alt="Number of items in cart"></div></a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <form class="search-bar">
+      <input id="searchbar" aria-label="search field" title="Search" placeholder="Search “Best wine to go with pasta”"><a href="#" class="red-btn">search</a>
+    </form>
+    <div class="search-filters">
+      <ul>
+        <li>Wine category</li>
+        <select>
+          <option value="">red</option>
+          <option value="">white</option>
+        </select>
+      </ul>
+      <ul>
+        <li>Brand</li>
+        <select>
+          <option value="">Penfolds</option>
+          <option value="">Tait</option>
+          <option value="">Jacob's Creek</option>
+        </select>
+      </ul>
+      <ul>
+        <li>Price</li>
+        <select>
+          <option value="">low-high</option>
+          <option value="">high-low</option>
+        </select>
+      </ul>
+    </div><a href="#" class="view-link">view all wines</a>
+    <div class="wine-preview">
+      <div class="col-3"><img src="images/wine-03.png" alt="" class="product"></div>
+      <div class="col-3">
+        <p class="wine-name"><span>Penfolds</span> Pinot Noir 2017</p>
+        <p>12 reviews</p>
+        <p>Max Schubert, one of Penfolds winemaking legends...</p>
+        <p>$24.95 bottle</p>
+        <select>
+          <option value="">select amount</option>
+          <option value="">1</option>
+          <option value="">2</option>
+          <option value="">3</option>
+        </select>
+        <p>$149.95 case</p>
+        <select>
+          <option value="">select amount</option>
+          <option value="">1</option>
+          <option value="">2</option>
+          <option value="">3</option>
+        </select><a href="#" id="cart" class="red-btn">add to cart</a>
+      </div>
+      <div class="col-3">
+        <p class="large">wine bars who stock this wine</p>
+        <p>Gertrude Street Enoteca</p>
+        <p>The Tipsy Cow</p>
+        <p>Victoria St Wine Bar</p>
+        <p>City Wine Shop</p>
+        <p>Punch Lane Wine Bar</p>
+        <p class="large">Wine merchant expert</p><img src="images/profile-01.png" alt="">
+        <p>Shawn Kemp</p>
+        <p>A rush of generous pulped fruits and earthly dried strawberry.</p><a href="#" class="view-link">read all of shawn's reviews</a>
+      </div>
+    </div>
+    <h3>You may also like these wines</h3>
+    <ul class="wine-grid">
+      <li class="wine-card"><img src="images/wine-01.png" alt="">
+        <p class="wine-name"><span>The Tamar</span> Pinot Noir 2015</p>
+        <p class="small">$24.95 bottle  $149.95 case</p>
+        <div class="hidden-items">
+          <div class="star-holder"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><span>12 reviews</span></div>
+          <div class="align-btns"><a href="/product.html" class="black-btn">view wine</a><a href="/product.html" class="red-btn">add to cart</a></div>
+        </div>
+      </li>
+      <li class="wine-card"><img src="images/wine-02.png" alt="">
+        <p class="wine-name"><span>Tait</span> Chardonnay 2012</p>
+        <p class="small">$24.95 bottle  $149.95 case</p>
+        <div class="hidden-items">
+          <div class="star-holder"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><span>12 reviews</span></div>
+          <div class="align-btns"><a href="/product.html" class="black-btn">view wine</a><a href="/product.html" class="red-btn">add to cart</a></div>
+        </div>
+      </li>
+      <li class="wine-card"><img src="images/wine-03.png" alt="">
+        <p class="wine-name"><span>Penfolds</span> Pinot Noir 2017</p>
+        <p class="small">$24.95 bottle  $149.95 case</p>
+        <div class="hidden-items">
+          <div class="star-holder"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><span>12 reviews</span></div>
+          <div class="align-btns"><a href="/product.html" class="black-btn">view wine</a><a href="/product.html" class="red-btn">add to cart</a></div>
+        </div>
+      </li>
+      <li class="wine-card"><img src="images/wine-04.png" alt="">
+        <p class="wine-name"><span>Wolf</span> Pinot Noir 2018</p>
+        <p class="small">$24.95 bottle  $149.95 case</p>
+        <div class="hidden-items">
+          <div class="star-holder"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><span>12 reviews</span></div>
+          <div class="align-btns"><a href="/product.html" class="black-btn">view wine</a><a href="/product.html" class="red-btn">add to cart</a></div>
+        </div>
+      </li>
+      <li class="wine-card"><img src="images/wine-05.png" alt="">
+        <p class="wine-name"><span>Wolf</span> Sauvignon Blanc 2011</p>
+        <p class="small">$24.95 bottle  $149.95 case</p>
+        <div class="hidden-items">
+          <div class="star-holder"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><span>12 reviews</span></div>
+          <div class="align-btns"><a href="/product.html" class="black-btn">view wine</a><a href="/product.html" class="red-btn">add to cart</a></div>
+        </div>
+      </li>
+      <li class="wine-card"><img src="images/wine-06.png" alt="">
+        <p class="wine-name"><span>Penfolds</span> Pinot Noir 2018</p>
+        <p class="small">$24.95 bottle  $149.95 case</p>
+        <div class="hidden-items">
+          <div class="star-holder"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><span>12 reviews</span></div>
+          <div class="align-btns"><a href="/product.html" class="black-btn">view wine</a><a href="/product.html" class="red-btn">add to cart</a></div>
+        </div>
+      </li>
+      <li class="wine-card"><img src="images/wine-07.png" alt="">
+        <p class="wine-name"><span>South Island</span> Blanc 2012</p>
+        <p class="small">$24.95 bottle  $149.95 case</p>
+        <div class="hidden-items">
+          <div class="star-holder"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><span>12 reviews</span></div>
+          <div class="align-btns"><a href="/product.html" class="black-btn">view wine</a><a href="/product.html" class="red-btn">add to cart</a></div>
+        </div>
+      </li>
+      <li class="wine-card"><img src="images/wine-08.png" alt="">
+        <p class="wine-name"><span>Jacob's Creek</span> Reisling 2010</p>
+        <p class="small">$24.95 bottle  $149.95 case</p>
+        <div class="hidden-items">
+          <div class="star-holder"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-on.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><img src="images/star-off.svg" alt="" class="star"><span>12 reviews</span></div>
+          <div class="align-btns"><a href="/product.html" class="black-btn">view wine</a><a href="/product.html" class="red-btn">add to cart</a></div>
+        </div>
+      </li>
+    </ul>
+    <div class="cookbook">
+      <div class="heading">
+        <h2>Food & Wine from Jo's cookbook</h2><a href="#" class="view-link">view all recipes<img src="images/arrow.svg" alt="" class="arrow"></a>
+      </div>
+      <section class="list-of-recipes">
+        <article>
+          <div style="background-image: url('images/pasta.png');" class="img-holder">
+            <h2>pasta</h2>
+          </div>
+          <h6>Pasta florentine</h6>
+          <p class="descr">Creamy mushrooms and peppery parmesan make this classic pasta florentine a dinner.</p><a href="#" class="view-link">view Pasta florentine</a><img src="images/arrow.svg" alt="" class="arrow">
+        </article>
+        <article>
+          <div style="background-image: url('images/pizza.png');" class="img-holder">
+            <h2>pizza</h2>
+          </div>
+          <h6>Vegetarian pizza</h6>
+          <p class="descr">Pizza mushrooms and peppery parmesan make this classic pasta.</p><a href="#" class="view-link">view Vegetarian pizza</a><img src="images/arrow.svg" alt="" class="arrow">
+        </article>
+        <article>
+          <div style="background-image: url('images/salmon.png');" class="img-holder">
+            <h2>salmon</h2>
+          </div>
+          <h6>Smoked salmon</h6>
+          <p class="descr">BBQ salmon mushrooms peppery parmesan make this classic for dinner tonight.</p><a href="#" class="view-link">view Smoked salmon</a><img src="images/arrow.svg" alt="" class="arrow">
+        </article>
+      </section>
+    </div>
+  </div>
+  <div class="fans">
+    <h2>Our Wine Merchant fans</h2>
+    <p>Follow and connect with them on Instagram to share all of your wine tips.</p>
+    <section class="insta-reel">
+      <article class="insta-card"><img src="images/fan-01.png" alt="" class="fan"><img src="images/profile-01.png" alt="" class="profile">
+        <h6>@janekemp</h6>
+      </article>
+      <article class="insta-card"><img src="images/fan-02.png" alt="" class="fan"><img src="images/profile-02.png" alt="" class="profile">
+        <h6>@becmiller</h6>
+      </article>
+      <article class="insta-card"><img src="images/fan-03.png" alt="" class="fan"><img src="images/profile-03.png" alt="" class="profile">
+        <h6>@garypayton</h6>
+      </article>
+      <article class="insta-card"><img src="images/fan-04.png" alt="" class="fan"><img src="images/profile-04.png" alt="" class="profile">
+        <h6>@tessgrey</h6>
+      </article>
+      <article class="insta-card"><img src="images/fan-05.png" alt="" class="fan"><img src="images/profile-05.png" alt="" class="profile">
+        <h6>@shawnkemp</h6>
+      </article>
+      <article class="insta-card"><img src="images/fan-06.png" alt="" class="fan"><img src="images/profile-06.png" alt="" class="profile">
+        <h6>@emilyloz</h6>
+      </article>
+    </section>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="col-4">
+        <div class="logo"><img src="/images/wine-merchant-logo.svg" alt="Wine merchant logo"></div>
+      </div>
+      <div class="col-4">
+        <h5>Help & Services</h5>
+        <ul>
+          <li><a href="#">Help center</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">My Wine Merchant</a></li>
+          <li><a href="#">Delivery options</a></li>
+          <li><a href="#">Corporate orders</a></li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <h5>Shop Wine</h5>
+        <ul>
+          <li><a href="#">Red wine</a></li>
+          <li><a href="#">White wine</a></li>
+          <li><a href="#">Champagne</a></li>
+          <li><a href="#">Australian wine</a></li>
+          <li><a href="#">Weekly specials</a></li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="#">380 Lonsdale street Melbourne, Victoria</a></li>
+          <li><a href="#">1300 025 959</a></li>
+          <li><a href="#">hello@winemerchant.com</a></li>
+        </ul>
+        <div class="icons"><a href="/product.html" title="facebook social media icon" style="background: url(/images/facebook.png) 100% 100% no-repeat;"></a><a href="/product.html" title="twitter social media icon" style="background: url(/images/twitter.png) 100% 100% no-repeat;"></a><a href="/product.html" title="linkedin social media icon" style="background: url(/images/linkedin.png) 100% 100% no-repeat;"></a><a href="/product.html" title="instagram social media icon" style="background: url(/images/instagram.png) 100% 100% no-repeat;"></a><a href="/product.html" title="youtube social media icon" style="background: url(/images/youtube.png) 100% 100% no-repeat;"></a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+  <script src="./scripts/main.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+</body></html>
