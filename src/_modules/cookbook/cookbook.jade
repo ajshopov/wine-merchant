@@ -8,12 +8,12 @@ mixin cookbook(spec)
       a.view-link(href="#") view all recipes
         img.arrow(src="images/arrow.svg", alt="")
 
-    ul.list-of-recipes
+    section.list-of-recipes
       each food in site.data.cookbook
         article
           .img-holder(style="background-image: url('#{food.image}');")
             h2 #{food.title}
-          p.large #{food.subtitle}
+          h6 #{food.subtitle}
           p.descr #{food.description}
           a.view-link(href="#") view #{food.subtitle}
           img.arrow(src="images/arrow.svg", alt="")

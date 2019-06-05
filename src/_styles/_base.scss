@@ -34,7 +34,11 @@ h5{
 }
 
 h6{
-    font-size: 1em;
+    font-size: 1.125em;
+    font-weight: 500;
+    font-family: $monty;
+    margin: 16px 0;
+    line-height: 24px;
 }
 
 ul{
@@ -49,11 +53,6 @@ a{
 
 p{
     line-height: 24px;
-}
-.large{
-    font-size: 1.125em;
-    font-weight: 500;
-    font-family: $monty;
 }
 
 .small{
